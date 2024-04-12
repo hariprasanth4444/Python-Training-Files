@@ -1,0 +1,153 @@
+1.What is language.
+            A programming language is a formal language that is used to write computer programs. It consists of a set of rules, symbols, and               syntax that allows programmers to communicate instructions to a computer in a way that it can understand and execute.
+
+            Programming languages can be broadly categorized into several types, including:
+
+            1. Procedural programming languages: These are languages that use a series of procedures, functions, and subroutines to organize                  code into reusable and modular components. Examples include C, Pascal, and FORTRAN.
+
+            2. Object-oriented programming languages: These are languages that are based on the concept of objects, which encapsulate data                  and  the methods that operate on that data. Examples include Java, C++, and Python.
+
+            3. Functional programming languages: These are languages that are based on the concept of mathematical functions, which take                   input and produce output without changing the state of the program. Examples include Lisp, Haskell, and Erlang.
+
+            4. Scripting languages: These are languages that are used to write scripts, which are short programs that automate repetitive                    tasks. Examples include JavaScript, Python, and Ruby.
+
+            Programming languages are essential tools for software development, and each language has its own strengths and weaknesses.                   Programmers choose the appropriate programming language based on the requirements of the project, the performance and                       efficiency  of the language, and their personal preferences and experience.
+            
+            
+Introduction to Translators and Compliers
+
+   Interpretor 
+             An interpreter is a program that executes code written in a high-level programming language by translating each line of code                into machine code on the fly, rather than compiling the entire code into machine code before execution. 
+
+            The interpreter reads the source code line by line, analyzes it, and immediately executes it, without creating an executable                 file       beforehand. It performs the same functions as a compiler but in a different way. Unlike a compiler, which translates             the entire program into machine code and produces an executable file that can be run independently, an interpreter executes the             program directly from the source code.
+
+            Interpreted languages, such as Python, JavaScript, and Ruby, rely on interpreters to execute code. Interpreted languages are                 generally easier to learn and use than compiled languages, but they can be slower in execution because they need to perform the             translation process every time the code is run. However, interpreted languages offer several advantages, such as portability,               dynamic typing, and ease of debugging.
+
+            In summary, an interpreter is a program that reads and executes code written in a high-level programming language by translating            it into machine code on the fly. It is an alternative to a compiler and is commonly used for interpreted programming languages.
+            
+   Compiler
+               A compiler is a program that translates source code written in a high-level programming language into machine code that can                  be executed by a computer. Unlike an interpreter, a compiler translates the entire source code into machine code before                      execution, producing a standalone executable file that can be run independently.
+
+              The compilation process involves several stages, including lexical analysis, syntax analysis, semantic analysis, code                       generation, and optimization. The compiler reads the source code, analyzes its structure, and generates an optimized and                     executable output file in machine language.
+
+            An example of a compiler is the GNU Compiler Collection (GCC), which is a free and open-source compiler system that supports                 multiple programming languages, including C, C++, and Fortran. Another example is the Microsoft Visual C++ compiler, which is               used to compile C++ code on Windows.
+
+            For example, let's say we have a C program that prints "Hello, world!" to the console:
+
+            ```c
+            #include <stdio.h>
+            int main() {
+                printf("Hello, world!\n");
+                return 0;
+            }
+            ```
+
+            To compile this program using GCC, we can use the following command in a terminal:
+
+            ```bash
+            gcc -o hello hello.c
+            ```
+
+            This command instructs GCC to compile the `hello.c` source code file and generate an executable file named `hello`. The                     resulting executable file can be run on the command line, and it will output "Hello, world!" to the console:
+
+            ```bash
+            ./hello
+            Hello, world!
+            ```
+
+            In summary, a compiler is a program that translates high-level programming language code into machine code that can be executed             by a computer. It is used to create standalone executable files that can be run independently.
+            
+            
+    Difference between programming and scripting langauge?
+    
+    
+                Programming languages and scripting languages are both used for software development, but they differ in several key ways.                   Here are some of the main differences between programming languages and scripting languages:
+
+            1. Compilation: Programming languages are typically compiled, which means that the source code is translated into machine code                               before it is executed. Scripting languages are interpreted, which means that the source code is executed                                     directly by an interpreter.
+
+            2. Complexity: Programming languages are typically more complex than scripting languages. They have a wider range of features                              and are often used for developing large-scale software applications. Scripting languages are usually simpler and                            are often used for automating simple tasks or for adding functionality to existing software applications.
+
+            3. Performance: Compiled programming languages generally execute faster than interpreted scripting languages because the code is                             pre-compiled into machine code before execution. However, this performance advantage comes at the cost of                                   increased complexity and longer development times.
+
+            4. Ease of use: Scripting languages are generally easier to learn and use than programming languages. They often have simpler                               syntax, and are more forgiving of errors, making them ideal for beginners. Programming languages require more                               skill and experience to use effectively.
+
+            5. Portability: Scripting languages are often more portable than compiled programming languages because they do not need to be                               compiled into machine code before they can be run. This means that scripts written in scripting languages can                               often be run on different platforms without modification, while compiled programs need to be recompiled for each                             platform.
+
+            In summary, programming languages are typically compiled, complex, and used for developing large-scale software applications,              while scripting languages are typically interpreted, simpler, and used for automating simple tasks or extending the functionality            of existing software applications. Programming languages generally execute faster than scripting languages but require more skill            and experience to use effectively.
+     
+     
+   What is programming paradigm??
+   
+                   A programming paradigm is a way of thinking about software development that guides the design and implementation of                          software systems. It is a general approach to software development that provides a set of guidelines, principles, and                        techniques for solving problems and creating software. A programming paradigm defines the basic concepts and structures                      that are used to organize code, data, and control flow within a software system.
+
+                There are several programming paradigms, each with its own unique approach to software development. Some of the most common                 programming paradigms include:
+
+                1. Procedural programming: Procedural programming is a paradigm that focuses on writing procedures or functions that operate                    on data. The data is usually organized into structures such as arrays, structs, or classes.
+
+                2. Object-oriented programming (OOP): OOP is a paradigm that emphasizes the use of objects to represent data and                                functionality. Objects are instances of classes that encapsulate data and methods.
+
+                3. Functional programming: Functional programming is a paradigm that emphasizes the use of functions to manipulate data.                        Functions are treated as first-class citizens and can be passed around as arguments to other functions.
+
+                4. Declarative programming: Declarative programming is a paradigm that emphasizes the use of declarations or statements that                   describe what the program should do, rather than how it should do it. Examples of declarative programming include SQL and                   Prolog.
+
+                5. Event-driven programming: Event-driven programming is a paradigm that emphasizes the use of events and event handlers to                    control the flow of a program. Examples of event-driven programming include GUI programming and game development.
+
+                Different programming paradigms can be used to solve different types of problems and are often used in combination to create                 complex software systems. Choosing the right programming paradigm for a given problem is an important decision that can have                 a significant impact on the quality and maintainability of the resulting software system.
+            
+    what is python ??
+    
+                Python is a high-level, interpreted programming language that was first released in 1991 by its creator, Guido van Rossum.                   Python is known for its simplicity, ease of use, and readability, which makes it a popular choice for beginners and                         experienced programmers alike. It is an open-source language, which means that it is free to use and distribute, and it has                 a large and active community of developers who contribute to its development.
+
+                Python's history dates back to the late 1980s, when Guido van Rossum, a programmer at the Dutch research institute CWI,                     began working on a new programming language as a successor to the ABC language. The ABC language was used as a                               teaching language, and van Rossum wanted to create a language that was easy to learn and use, but also powerful enough to be                 used for real-world applications.
+
+                The first version of Python, version 0.9.0, was released in February 1991. The language quickly gained popularity,especially                 among the scientific community, thanks to its ease of use and support for numerical computing. In 1994, Python 1.0 was                       released, which introduced new features such as lambda functions, map(), filter(), and reduce().
+
+                Over the years, Python has continued to evolve and grow in popularity. In 2000, Python 2.0 was released, which introduced                   new features such as list comprehensions, garbage collection, and support for Unicode. In 2008, Python 3.0 was released,                     which introduced several backwards-incompatible changes and improvements, including a simplified syntax, better support for                 Unicode, and improved I/O handling.
+
+            Today, Python is used for a wide range of applications, including web development, scientific computing, data analysis,                     artificial intelligence, and machine learning. It is one of the most popular programming languages in the world, and it                     continues to evolve and grow in popularity with each passing year.
+            
+   Features of Python??
+            
+                     Python is a popular programming language known for its simplicity, readability, and versatility. Some of the key                            features of Python are:
+
+            1. Easy to learn: Python is designed to be easy to learn and use, with a simple and straightforward syntax that is easy to                           understand, even for beginners.
+
+            2. Readable code: Python code is known for its readability, with a clear and consistent style that makes it easy to understand                       and maintain, even for large and complex projects.
+
+            3. Cross-platform: Python code can be run on a variety of platforms, including Windows, Linux, and macOS, making it a versatile                     language that can be used for a wide range of applications.
+
+            4. Large and active community: Python has a large and active community of developers who contribute to its development, create                  libraries and modules, and provide support and resources for other developers.
+
+            5. Object-oriented: Python supports object-oriented programming, which allows developers to create reusable code and build                      complex systems with ease.
+
+            6. Dynamic and high-level: Python is a dynamic language, which means that variables do not need to be declared before use, and                  types are inferred at runtime. It is also a high-level language, which means that it is closer to natural language than low-                level languages like assembly.
+
+            7. Extensive standard library: Python comes with a large and extensive standard library, which provides developers with a wide                  range of tools and functionality for building applications.
+
+            8. Third-party libraries: Python has a vast ecosystem of third-party libraries and modules that provide additional functionality                for specific applications, including scientific computing, data analysis, web development, and more.
+
+            These features, along with many others, have made Python one of the most popular programming languages in the world, with a wide             range of applications in various fields, including web development, data science, artificial intelligence, and more.   
+         
+   Why python is Genral Purpose Language?
+   
+              Python is considered a general-purpose programming language because it can be used for a wide range of applications and tasks,               from web development and scientific computing to automation, data analysis, and artificial intelligence. 
+
+    Python's versatility and ease of use make it a popular choice for many different types of projects. For example, it can be used to build     web applications using frameworks like Django or Flask, or to create desktop applications using GUI libraries like Tkinter or PyQt. It       is also widely used in scientific computing and data analysis, thanks to libraries like NumPy, Pandas, and Matplotlib.
+
+    In addition to its many built-in features, Python also has a vast ecosystem of third-party libraries and modules that extend its             functionality and make it even more useful for specific applications. This makes it a powerful and flexible language that can be adapted     to many different use cases, making it a great choice for developers who want to be able to work on a wide range of projects.
+            
+     Disadvantage of Python:
+       -Speed Limitation
+       -weak in Mobile Computing
+       -Design Restrictions
+       -UnderDeveloped DataBase Access Layers
+       -Simple
+            
+            
+            
+    Yes, compiling, I did not make a mistake here, There IS a compiling stage.
+
+Lexing, will identify the keywords and tokenize all “element”s of your program. Its result is a Concrete Syntax Tree(CST) or parser tree.
+Next, Parser will check the sequence order and grammar to see if there any statement break the rule. And return an simpler Abstract Syntax Tree(AST) or syntax tree.
+Finally, Compiler will transform the syntax tree to python bytecode. The compiled bytecode will be cached in .pyc files so that make the second run faster. (this reminds me of .jar file in Java and IL .dll file in C#).
+One difference compare with Java/C# is that the cached .pyc file is for performance purpose only. If Python interpreter don't see the .pyc file, it will compile the script on the fly.        
